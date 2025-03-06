@@ -498,7 +498,7 @@ img {
   border: none;
 }
 .close-button:hover,
-.close-button:focus + .close-button-svg {
+.close-button:focus .close-button-svg {
   fill: #ffffff;
 }
 .close-button-svg {
@@ -556,9 +556,7 @@ img {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-input:focus + .imput-icon {
-  fill: #4d5ae5;
-}
+
 .form-textarea {
   outline: transparent;
   padding: 8px 16px;
@@ -577,7 +575,7 @@ img {
 .form-textarea:focus {
   border-color: #4d5ae5;
 }
-.modal-text2 {
+.modal-text-two {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -585,12 +583,12 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.modal-form2 {
+.modal-form-two {
   display: flex;
   justify-content: space-between;
   gap: 24px;
 }
-.modal-email2 {
+.modal-email-two {
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
@@ -603,7 +601,7 @@ img {
   border-radius: 4px;
   color: #ffffff;
 }
-.modal-button2 {
+.modal-button-two {
   min-width: 165px;
   height: 40px;
   display: flex;
@@ -621,7 +619,7 @@ img {
   border: none;
   border-radius: 4px;
 }
-.modal-svg2 {
+.modal-svg-two {
   margin-left: 16px;
   fill: white;
 }
