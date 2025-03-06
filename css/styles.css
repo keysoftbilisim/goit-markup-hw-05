@@ -493,9 +493,8 @@ img {
 }
 
 .close-button:hover,
-.close-button:focus {
-  background-color: #404bbf;
-  border: none;
+.close-button:focus close-button-svg {
+  fill: #ffffff;
 }
 .close-button-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -567,4 +566,52 @@ input-container {
 }
 .form-textarea:focus {
   border-color: #4d5ae5;
+}
+.modal-text2 {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.modal-form2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.modal-email2 {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.modal-button2 {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
+.modal-svg2 {
+  margin-left: 16px;
+  fill: white;
 }
